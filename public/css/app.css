@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'proxima-nova';
+  src: url('/fonts/Proxima_Nova_Semibold.otf');
+}
+
+@font-face {
+  font-family: 'proxima-nova-black';
+  src: url('/fonts/ProximaNova-Bold.otf');
+}
+
+@font-face {
+  font-family: 'proxima-nova-regular';
+  src: url('/fonts/ProximaNova-Regular.otf');
+}
+
+body,
+* {
+  font-family: "proxima-nova";
+}
+
+strong,
+b,
+h1,
+h2,
+h6,
+.card-title,
+a.nav-link,
+.bold {
+  font-family: "proxima-nova";
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "proxima-nova-black";
+}
+
+h5 {
+	font-family: "proxima-nova-black";
+	font-size: 22px;
+}
